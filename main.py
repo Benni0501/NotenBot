@@ -104,4 +104,4 @@ async def change(ctx, fach, note):
         await ctx.send("```Ungültige Eingabe```")
 
 
-client.run("OTQyNDg5Nzk4NDkxMzg5OTUy.YglQBg.PpHud7hR90BomRo-LFEb6TQZ2WM")
+client.run("<your-token>")
