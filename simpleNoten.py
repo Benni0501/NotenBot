@@ -5,9 +5,9 @@ class SimpleNoten:
     def __init__(self):
         print(f"noten constructor")
         self.mydb = mysql.connector.connect(
-            host="127.0.0.1",
-            user="noten",
-            password="benni0501"
+            host="<ip-address>",
+            user="<username>",
+            password="<password>"
         )
         self.mycursor = self.mydb.cursor()
         self.mycursor.execute("USE noten;")
