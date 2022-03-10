@@ -5,3 +5,9 @@
 
 ## Noten
 ![image](https://user-images.githubusercontent.com/81293464/157608233-08a95f8e-28f6-45e2-991f-be8bd0b1d95f.png)
+
+## How to start
+
+```bash
+bash start.sh
+```
