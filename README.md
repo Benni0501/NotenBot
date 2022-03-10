@@ -8,6 +8,6 @@
 
 ## How to start
 
-```bash
+```shell
 bash start.sh
 ```
