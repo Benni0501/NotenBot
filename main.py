@@ -10,7 +10,7 @@ noten1 = None
 
 @client.event
 async def on_ready(): 
-    activity = discord.Activity(name="8.132 an der Tafel", type=discord.ActivityType.playing)
+    activity = discord.Activity(name="<activity-name>", type=discord.ActivityType.playing)
     await client.change_presence(activity=activity)
     print(f"ready")
     global noten1
@@ -37,7 +37,7 @@ async def noten(ctx, person=None):
             userName = ctx.author.display_name
         embed.set_author(name=userName,
                          icon_url=ctx.author.avatar_url,
-                         url="https://www.htl-kaindorf.at/schule/schueler-innen#3BHIF")
+                         url="<url>")
     else:
         person = person.lower()
         personId = noten1.getID(person)
@@ -66,7 +66,7 @@ async def noten(ctx, person=None):
             userAvatarUrl = "https://i.ytimg.com/vi/_3KtqEfHjeQ/maxresdefault.jpg"
         embed.set_author(name=userName,
                          icon_url=userAvatarUrl,
-                         url="https://www.hak-leibnitz.at/")
+                         url="<url>")
     print("after if")
     valueFach = "\n"
     valueNoten = "\n"
